@@ -1,10 +1,12 @@
 {
   "name": "jhu-covid19-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "docs": "jsdoc -c .jsdocrc",
+    "http-docs": "PORT=${PORT:-8080}; http-server -p $PORT docs"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,9 @@
   "dependencies": {
     "node-fetch": "^2.6.0",
     "qs": "^6.9.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "jsdoc": "^3.6.3"
   }
 }

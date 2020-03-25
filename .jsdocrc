@@ -1,0 +1,20 @@
+{
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "source": {
+        "include": [
+            "api"
+        ]
+    },
+    "opts": {
+        "destination": "./docs/",
+        "encoding": "utf8",
+        "recurse": true
+    },
+    "templates": {
+        "referenceTitle": "COVID19 API",
+        "disableSort": true,
+        "collapse": false
+    }
+}

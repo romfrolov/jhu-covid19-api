@@ -24,9 +24,23 @@ const covid = require('jhu-covid19-api');
 })();
 ```
 
+### Documentation
+
+Generate docs:
+
+```bash
+npm run docs
+```
+
+Start HTTP server serving docs:
+
+```bash
+npm run http-docs
+```
+
 ---
 
 #### To do list:
 
-- [ ] API documentation
+- [x] API documentation
 - [ ] Routes extension
