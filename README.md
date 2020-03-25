@@ -1,5 +1,7 @@
 # COVID19 API Wrapper (Node.js)
 
+[![npm version](https://badge.fury.io/js/jhu-covid19-api.svg)](https://badge.fury.io/js/jhu-covid19-api) [![install size](https://packagephobia.now.sh/badge?p=jhu-covid19-api)](https://packagephobia.now.sh/result?p=jhu-covid19-api)
+
 API wrapper for [COVID19 API](https://covid19api.com/).
 
 *Data is sourced from Johns Hopkins University.*
