@@ -1,6 +1,6 @@
 {
   "name": "jhu-covid19-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "qs": "^6.9.2"
   },
   "devDependencies": {
-    "http-server": "^0.12.1",
+    "http-server": "^0.12.3",
     "jsdoc": "^3.6.3"
   }
 }
