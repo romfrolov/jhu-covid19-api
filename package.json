@@ -20,7 +20,7 @@
     "qs": "^6.9.2"
   },
   "devDependencies": {
-    "http-server": "^0.12.3",
+    "http-server": "^14.1.1",
     "jsdoc": "^3.6.3"
   }
 }
